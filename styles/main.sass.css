@@ -1,0 +1,62 @@
+.nav-bar {
+  height: 65px;
+  padding: 5px 1em;
+  background-color: #333333;
+  color: white; }
+  .nav-bar .image-div {
+    height: 60px;
+    float: left; }
+    .nav-bar .image-div a span {
+      color: white;
+      text-decoration: none !important;
+      font-size: 2em; }
+    .nav-bar .image-div img {
+      height: 100%; }
+  .nav-bar .user-dropdown {
+    float: right;
+    margin-top: 0.5em; }
+    .nav-bar .user-dropdown img {
+      border-radius: 50%; }
+
+#selectList {
+  background-color: #ECE9E6;
+  border: 0.25em solid #78695b;
+  min-height: 30em; }
+  #selectList .listItem {
+    list-style-type: none;
+    padding-left: 0.25em;
+    border-bottom: 0.25em solid #78695b; }
+
+#map, #filter {
+  background-color: #ECE9E6;
+  border: 0.25em solid #78695b;
+  height: 25em; }
+
+#selectList {
+  background-color: #ECE9E6;
+  border: 0.25em solid #78695b;
+  min-height: 30em; }
+  #selectList .listItem {
+    list-style-type: none;
+    padding-left: 0.25em;
+    border-bottom: 0.25em solid #78695b; }
+
+#calendar {
+  background-color: #ECE9E6;
+  border: 0.25em solid #78695b;
+  height: 25em; }
+
+#parkDetail {
+  margin-left: 8%;
+  padding: 1em;
+  background-color: #ECE9E6;
+  border: 0.25em solid #78695b;
+  border-top: none; }
+  #parkDetail .closeIcon {
+    float: right;
+    font-size: 1em; }
+
+body {
+  background-color: white; }
+  body #main {
+    padding-top: 5em; }
